@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.21901.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures.csproj", "{65B683DE-57A6-438E-BFD2-9281F36EC46B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roslyn", "Roslyn\Roslyn.csproj", "{620C3F01-124A-4D10-88D9-C7C02C9986A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6F025E2D-5253-475C-9D4A-B5B639AC6C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B683DE-57A6-438E-BFD2-9281F36EC46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B683DE-57A6-438E-BFD2-9281F36EC46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B683DE-57A6-438E-BFD2-9281F36EC46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B683DE-57A6-438E-BFD2-9281F36EC46B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620C3F01-124A-4D10-88D9-C7C02C9986A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620C3F01-124A-4D10-88D9-C7C02C9986A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620C3F01-124A-4D10-88D9-C7C02C9986A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620C3F01-124A-4D10-88D9-C7C02C9986A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F025E2D-5253-475C-9D4A-B5B639AC6C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F025E2D-5253-475C-9D4A-B5B639AC6C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F025E2D-5253-475C-9D4A-B5B639AC6C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F025E2D-5253-475C-9D4A-B5B639AC6C89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
