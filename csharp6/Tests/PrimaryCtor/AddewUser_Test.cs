@@ -39,22 +39,14 @@ namespace Tests.PrimaryCtor
             Assert.IsTrue(threw);
         }
 
-        [TestMethod]
-        public void Order_Of_Appearance_Is_Signifigant()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod]
-        public void Can_Use_Primary_Ctor_Parameters_In_Methods()
-        {
-            Assert.Fail();
-        }
 
         [TestMethod]
         public void Can_Have_Other_Ctors()
         {
-            Assert.Fail();
+            var user = new User();
+            var command = new AddUserCommand(user);
+
+            Assert.AreEqual(command.NewUser, command.Creator);
         }
     }
 }
