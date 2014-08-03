@@ -2,19 +2,7 @@
 
 namespace LanguageFeatures.PrimaryCtor
 {
-    public struct Money2
-    {
-        public Money2(string currency, decimal amount) : this()
-        {
-            Currency = currency;
-            Amount = amount;
-        }
-
-        public string Currency { get;set; }
-        public decimal Amount { get; set; }
-    }
-
-    public struct Money(string currency, decimal amount)
+    public struct Money(string currency, decimal amount) 
     {
         public string Currency { get; } = currency;
         public decimal Amount { get; } = amount;
