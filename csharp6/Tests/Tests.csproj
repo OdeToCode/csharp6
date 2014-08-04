@@ -51,6 +51,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Initializers\AddExtension_Tests.cs" />
     <Compile Include="AutoPropInit\Person_Test.cs" />
     <Compile Include="PrimaryCtor\AddewUser_Test.cs" />
     <Compile Include="PrimaryCtor\Money_Tests.cs" />
