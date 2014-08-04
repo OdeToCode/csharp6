@@ -4,6 +4,13 @@ namespace LanguageFeatures.PrimaryCtor
 {
     public struct Money(string currency, decimal amount) 
     {
+        public Money(string amount)
+            :this("eur", decimal.TryParse(amount, out var value) ? value : 0m)
+        {
+
+        }
+
+
         public string Currency { get; } = currency;
         public decimal Amount { get; } = amount;
 
