@@ -48,6 +48,7 @@
     <Compile Include="Initializers\UserStore.cs" />
     <Compile Include="AutoPropInit\Person.cs" />
     <Compile Include="DictInit\UserCache.cs" />
+    <Compile Include="Numbers\BinaryDigits.cs" />
     <Compile Include="ParamsEnumerable\UserStore.cs" />
     <Compile Include="PrimaryCtor\AddUserCommand.cs" />
     <Compile Include="PrimaryCtor\Money.cs" />
