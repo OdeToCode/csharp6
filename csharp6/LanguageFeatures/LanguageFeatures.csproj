@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeclExpression\TryDecl.cs" />
     <Compile Include="Initializers\UserStore.cs" />
     <Compile Include="AutoPropInit\Person.cs" />
     <Compile Include="DictInit\UserCache.cs" />
@@ -54,11 +55,10 @@
     <Compile Include="PrimaryCtor\Money.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AutoPropInit\User.cs" />
+    <Compile Include="Statics\UseStatic.cs" />
     <Compile Include="Verify.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DeclExpression\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

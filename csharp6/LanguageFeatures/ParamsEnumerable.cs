@@ -5,11 +5,12 @@ class Program
 {
     public static void Main()
     {
-
+        var result = Sum(45, 54, 14);
     }
 
     public int Sum(params IEnumerable<int> numbers)
     {
-	return 0;
+        return numbers.Sum(n => n);
     }
+
 }

@@ -17,12 +17,13 @@ public class Program
 {
     public static void Main()
     {
-	EventHandler<EventArgs> log = (o,e) => Console.Write("hit");
+	    EventHandler<EventArgs> log = (o,e) => Console.Write("hit");
 
         var user = new User() 
         {
             Name = "Scott",
             Speaking += log
-	};
+	    };
     }
 }
+
