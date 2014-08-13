@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace LanguageFeatures.Exceptions
@@ -43,7 +42,7 @@ namespace LanguageFeatures.Exceptions
             if (!disposedValue)
             {
                 if (disposing)
-                {
+                {                    
                     _logWriter.Dispose();
                 }
 
