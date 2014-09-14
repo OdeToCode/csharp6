@@ -45,7 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DeclExpression\TryDecl.cs" />
+    <Compile Include="EventInit.cs" />
     <Compile Include="Exceptions\OperationLogger.cs" />
+    <Compile Include="expbody.cs" />
     <Compile Include="Initializers\UserStore.cs" />
     <Compile Include="AutoPropInit\Person.cs" />
     <Compile Include="DictInit\UserCache.cs" />

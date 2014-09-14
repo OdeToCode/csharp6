@@ -20,5 +20,26 @@ namespace Tests.DeclExpression
             var result = new TryDecl().WithLinq(new[] { 1, 2, 3, 4, 5 });
             Assert.AreEqual(18, result);
         }
+
+        [TestMethod]
+        public void Can_Use_Out_Method()
+        {
+            var result = new TryDecl().WithCallingOutMethod();
+            Assert.AreEqual(8, result);
+        }
+
+        [TestMethod]
+        public void TestLength()
+        {
+            var result = new TryDecl().TestLength("foo");
+            Assert.AreEqual(3, result);
+        }
+
+        [TestMethod]
+        public void TestLengthNull()
+        {
+            var result = new TryDecl().TestLength(1);
+            Assert.AreEqual(0, result);
+        }
     }
 }
