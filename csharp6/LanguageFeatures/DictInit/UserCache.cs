@@ -14,13 +14,12 @@ namespace LanguageFeatures.DictInit
             return null;
         }
 
-        // TODO future
-        //        Dictionary<string, User> _default =
-        //            new Dictionary<string, User>
-        //            {
-        //                ["admin"] = new User(),
-        //                ["guest"] = new User()
-        //            };
-        //          
-    }    
+        Dictionary<string, User> _default =
+            new Dictionary<string, User>
+            {
+                ["admin"] = new User(),
+                ["guest"] = new User()
+            };
+
+    }
 }

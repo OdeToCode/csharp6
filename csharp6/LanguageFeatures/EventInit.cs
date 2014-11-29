@@ -5,7 +5,7 @@
 //{
 //    public void Speak()
 //    {
-//        if(Speaking != null)
+//        if (Speaking != null)
 //        {
 //            Speaking(this, new EventArgs());
 //        }
@@ -18,13 +18,13 @@
 //{
 //    public static void Main()
 //    {
-//	    EventHandler<EventArgs> log = (o,e) => Console.Write("hit");
+//        EventHandler<EventArgs> log = (o, e) => Console.Write("hit");
 
-//        var user = new User() 
+//        var user = new User()
 //        {
 //            Name = "Scott",
 //            Speaking += log
-//	    };
+//        };
 //    }
 //}
 

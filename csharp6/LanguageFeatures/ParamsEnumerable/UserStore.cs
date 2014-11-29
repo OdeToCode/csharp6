@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace LanguageFeatures.ParamsEnumerable
 {
+    // TODO: Future
+
     //public class UserStore
     //{
     //    public UserStore(params IEnumerable<User> initialUsers)
