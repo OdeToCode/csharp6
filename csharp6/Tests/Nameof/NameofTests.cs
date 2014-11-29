@@ -30,15 +30,17 @@ namespace Tests.Nameof
         }
 
         [TestMethod]
-        public void CanNameClass()
+        public void Can_Name_Class()
         {
             AreEqual("NameofTests", nameof(NameofTests));
         }
 
+        // todo: overloaded methods, namespace, "hello"
+
         [TestMethod]
         public void Generics()
         {
-            AreEqual("List", nameof(List<int>));
+            AreEqual("List", nameof(System.Collections.Generic.List));
         }
 
         string GetParameter(int x)

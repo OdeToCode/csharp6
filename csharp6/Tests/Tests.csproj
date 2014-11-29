@@ -66,6 +66,7 @@
     <Compile Include="PrimaryCtor\Money_Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AutoPropInit\User_Test.cs" />
+    <Compile Include="Templates\Interpolation_Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LanguageFeatures\LanguageFeatures.csproj">
@@ -80,9 +81,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Templates\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -2,6 +2,8 @@
 using System.IO;
 using System.Threading.Tasks;
 
+// null propogation, await in catch, finally
+
 namespace LanguageFeatures.Exceptions
 {
     public class OperationLogger : IDisposable
