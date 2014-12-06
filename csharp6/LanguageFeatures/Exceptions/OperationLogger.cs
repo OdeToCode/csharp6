@@ -36,6 +36,31 @@ namespace LanguageFeatures.Exceptions
             }            
         }
 
+        public Task LogOperationAsync(Action operation)
+        {
+            var name = operation.Method.Name;
+
+            try
+            {
+                operation();
+                _logWriter.Write(name + " executed");
+            }
+            catch (Exception ex) if (LogException(ex)) { }
+            finally
+            {
+                _logWriter.Flush();
+            }
+
+            return Task.FromResult(0);
+        }
+
+        private bool LogException(Exception ex)
+        {
+            // ... do something
+
+            return false;
+        }
+
         readonly StreamWriter _logWriter;
         private bool disposedValue = false; 
 
