@@ -22,7 +22,7 @@ namespace LanguageFeatures.PrimaryCtor
         {
             if (string.Compare(m1.Currency, m2.Currency, StringComparison.InvariantCulture) != 0)
             {
-                var message = "(Cannot add \{m1.Currency} to \{m2.Currency})";
+                var message = $"(Cannot add {m1.Currency} to {m2.Currency})";
                 throw new InvalidOperationException(message);
 
                 //throw new InvalidOperationException(String.Format("Cannot add {0} to {1}", m1.Currency, m2.Currency));

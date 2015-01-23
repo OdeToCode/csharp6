@@ -1,7 +1,7 @@
 ﻿namespace LanguageFeatures.Statics
 {
 
-    using System.Console;
+    using static System.Console;
 
     class Program
     {       

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
+using static Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 using System;
 
 namespace Tests.Name_Of
@@ -41,7 +41,7 @@ namespace Tests.Name_Of
         [TestMethod]
         public void Generics()
         {
-            AreEqual("List", nameof(System.Collections.Generic.List));
+        //B    AreEqual("List", nameof(System.Collections.Generic.List));
         }
 
         string GetParameter(int x)
