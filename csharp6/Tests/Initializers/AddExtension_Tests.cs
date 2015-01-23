@@ -2,7 +2,7 @@
 using LanguageFeatures;
 using LanguageFeatures.Initializers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
+ 
 namespace Tests.Initializers
 {
     [TestClass]
