@@ -26,7 +26,7 @@ namespace LanguageFeatures.Exceptions
                 operation();
                 await _logWriter.WriteAsync(name + " executed");
             }
-            catch(Exception ex) if(ex.Message != null)
+            catch(Exception ex) when (ex.Message != null)
             {
                 await _logWriter.WriteAsync(name + " failed");
             }
@@ -45,7 +45,7 @@ namespace LanguageFeatures.Exceptions
                 operation();
                 _logWriter.Write(name + " executed");
             }
-            catch (Exception ex) if (LogException(ex)) { }
+            catch (Exception ex) when (LogException(ex)) { }
             finally
             {
                 _logWriter.Flush();
